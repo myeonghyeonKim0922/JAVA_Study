@@ -1,0 +1,16 @@
+package quiz.javaBase;
+
+public class StringTokenizer {
+
+	public StringTokenizer(String info, String string, boolean b) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		String info = "이름,아이디,패스워드";
+		StringTokenizer st = new StringTokenizer(info,",",true);
+		System.out.println(st);
+		
+	}
+
+}

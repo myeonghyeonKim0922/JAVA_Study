@@ -1,0 +1,12 @@
+package test.ch12.MethodGeneric;
+
+public class GenericEx {
+	//제네릭 메소드
+	public static <T> Box<T> boxing(T t) {
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

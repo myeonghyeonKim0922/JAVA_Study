@@ -1,0 +1,16 @@
+package java_modeling.ch01.asso3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//학생 두명 생성
+		Student s1 = new Student("홍길동");
+		Student s2 = new Student("김첨지");
+		
+		//과목생성
+		Course jv = new Course("Java");
+		Course dp = new Course("Design Pattern");
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package test.ch11.Object;
+
+public class Member {
+
+	public static void main(String[] args) {
+		Object obj1 = new Object();
+		Object obj2 = obj1;
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package test.ch12;
+
+public class GenericEx2 {
+
+	public static void main(String[] args) {
+		//제너릭을 이용해서 다양한 제품을 생산할수있다.
+		Product<Tv,String> product1 = new Product<>();
+		product1.setKind(new Tv());
+		product1.setModel("스마트TV");
+		Product<Car,String> product2 = new Product<>();
+		
+	}
+
+}

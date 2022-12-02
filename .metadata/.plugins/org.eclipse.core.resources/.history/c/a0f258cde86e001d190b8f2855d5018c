@@ -1,0 +1,10 @@
+package quiz.javaBase;
+
+public class SimpleDateFormat {
+
+	public static void main(String[] args) {
+		SimpleDateFormat date = new SimpleDateFormat("yyyy년 MM월 dd일");
+		
+	}
+
+}

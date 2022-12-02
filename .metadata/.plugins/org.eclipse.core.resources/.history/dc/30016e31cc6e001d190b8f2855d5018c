@@ -1,0 +1,5 @@
+package test.ch11.Annotation;
+
+public @interface PrintaAnnotation {
+
+}

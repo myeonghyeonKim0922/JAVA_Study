@@ -1,0 +1,15 @@
+package test.ch11.System;
+
+import java.sql.Array;
+
+public class ByteToStringEx {
+
+	public static void main(String[] args) {
+		String data = "자바";
+		
+		byte[] arr1 = data.getBytes();
+		System.out.println(Array.toString(arr1));
+		
+	}
+
+}

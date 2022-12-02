@@ -1,0 +1,28 @@
+package quiz.test;
+
+public class Quiz04 {
+
+	static String name; // 학생이름
+	static int ban; //반
+	static int no; //번호
+	static int kor; //국어점수
+	static int eng; //영어점수
+	static int math; //수학점수
+	static int totalresult;
+	static int avgresult;
+	public static void main(String[] args) {
+		
+		
+		}
+	
+	public static int getTotal() {
+		totalresult = kor + eng + math;
+		return totalresult;
+	}
+	
+	public static float getAverage() {
+		avgresult = totalresult % 3;
+		return avgresult;
+	}
+
+}

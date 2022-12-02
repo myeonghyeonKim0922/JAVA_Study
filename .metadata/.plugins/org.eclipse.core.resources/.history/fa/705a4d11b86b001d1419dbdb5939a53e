@@ -1,0 +1,13 @@
+package test.ch11.System;
+
+public class StringBuilderEx {
+
+	public static void main(String[] args) {
+		StringBuilder data = new StringBuilder()
+				.append("DEF");
+		
+		System.out.println(data);
+		
+	}
+
+}

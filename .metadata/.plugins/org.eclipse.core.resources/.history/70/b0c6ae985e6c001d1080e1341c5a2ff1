@@ -1,0 +1,10 @@
+package test.ch11.Math;
+
+public class RandomEx {
+
+	public static void main(String[] args) {
+		//0.0 ~ 1.0 사이의 숫자 출력(소수,double타입)
+		System.out.println(Math.random());
+	}
+
+}

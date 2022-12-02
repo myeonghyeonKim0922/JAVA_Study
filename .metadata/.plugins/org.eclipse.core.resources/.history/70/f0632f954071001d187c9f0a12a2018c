@@ -1,0 +1,48 @@
+package application;
+
+import school.*;
+import utils.Define;
+
+public class StudentInfoApplication {
+	School goodSchool =School.getInstance();
+	Subject korean; //국어 과목 생성
+	Subject math; // 수학 과목 생성
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	//과목을 생성
+	public void createSubject() {
+		korean = new Subject("국어",Define.KOREA);
+		math = new Subject("수학",Define.MATH);
+		
+		//학교에 과목을 넣어준다.
+		goodSchool.addSubject(korean);
+		goodSchool.addSubject(math);
+	}
+	
+	//학생 생성
+	public void createStudent() {
+		//학생 생성
+		Student student1 = new Student(181213, "박지은", korean);
+		Student student2 = new Student(181518, "차슬기", math);
+		Student student3 = new Student(171230, "이현욱", korean);
+		Student student4 = new Student(171255, "임지연", korean);
+		Student student5 = new Student(171590, "김재현", math);
+		
+		//학교에 등록
+		goodSchool.addStudent(student1);
+		goodSchool.addStudent(student2);
+		goodSchool.addStudent(student3);
+		goodSchool.addStudent(student4);
+		goodSchool.addStudent(student5);
+	}
+	
+	//학생마다 과목별(수학,국어) 점수 추가
+	public void addScoreForStudent() {
+		
+	}
+	
+	
+}

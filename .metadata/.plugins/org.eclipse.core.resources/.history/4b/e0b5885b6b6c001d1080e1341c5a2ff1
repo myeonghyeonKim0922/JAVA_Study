@@ -1,0 +1,16 @@
+package test.ch11.Date;
+
+import java.util.Calendar;
+
+public class CalendarEx {
+
+	public static void main(String[] args) {
+
+		Calendar now = Calendar.getInstance(); //현재 시간과 날짜를 가져옴
+		int year = now.get(Calendar.YEAR 2);
+		int month = now.get(Calendar.MONTH);
+		System.out.println(month);
+		System.out.println(year);
+	}
+
+}

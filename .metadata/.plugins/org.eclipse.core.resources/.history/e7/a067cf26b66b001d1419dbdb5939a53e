@@ -1,0 +1,18 @@
+package test.ch11.System;
+
+import java.util.Arrays;
+
+public class ByteToStringEx {
+
+	public static void main(String[] args) {
+		String data = "자바";
+		
+		byte[] arr1 = data.getBytes();
+		System.out.println(Arrays.toString(arr1));
+		
+		String str1 = new String(arr1,"UTF-8");
+		System.out.println(str1);
+		
+	}
+
+}

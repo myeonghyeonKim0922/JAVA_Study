@@ -1,0 +1,38 @@
+package test.ch11.Object;
+
+public class Student {
+	//필드
+	private int no;
+	private String name;
+	
+	//생성자
+	public Student(int no, String name){
+		this.no = no;  //필드에 초기값 할당
+		this.name = name;
+	}
+
+	
+	//메소드
+	public int getNo() {
+		return no;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return super.hashCode();
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+
+}

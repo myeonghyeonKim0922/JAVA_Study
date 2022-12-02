@@ -1,0 +1,10 @@
+package quiz.javaBase;
+
+public class DecodingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

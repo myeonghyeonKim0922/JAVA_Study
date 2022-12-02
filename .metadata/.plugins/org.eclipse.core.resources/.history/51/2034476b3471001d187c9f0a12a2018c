@@ -1,0 +1,8 @@
+package school.report;
+
+import school.School;
+
+public class GenerateGradeReport {
+	//필드
+	School school = School.getInstance();
+}

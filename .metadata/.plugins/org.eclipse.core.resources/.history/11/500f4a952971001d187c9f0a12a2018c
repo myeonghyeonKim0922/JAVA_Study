@@ -1,8 +1,0 @@
-package school;
-
-public class School {
-	private static School instance = new School();
-	
-	//싱글톤은 생성자가 private -> 외부에서 객체를 여러개 생성하면 안됨
-	private School() {};
-}

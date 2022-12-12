@@ -1,28 +1,30 @@
 package quiz.test;
 
+import java.util.stream.Stream;
+
 public abstract class Quiz01 {
 	class Solution {
-	    public int solution(int slice, int n) {
-	        int pizza = slice;
-	        int result = 1;
-	            if(n % slice == 0){
-	                result = n / slice;
-	            }else{
-	                result = 1 + (n / slice);
-	            }
-				return result;
+	    public int solution(int n) {
+	        int answer = 0;
+	        int[] digits = Stream.of(String.valueOf(n).split("")).mapToInt(Integer::parseInt).toArray();
+	        for(int i : digits) {
+	        	answer = digits[i] + answer;
 	        }
+	        return answer;
 	    }
-
-	public static void main(String[] args) {
-		int num = 10;
-		if(num < 0) {
-			System.out.println("음수");
-		}else if(num > 0) {
-			System.out.println("양수");			
-		}else {
-			System.out.println("0");						
-		}
 	}
 
+	public static void main(String[] args) {
+		int n = 1234;
+        int answer = 0;
+        int[] digits = Stream.of(String.valueOf(n).split("")).mapToInt(Integer::parseInt).toArray();
+        for(int i=0; i<digits.length; i++) {
+        	answer = digits[i] + answer;
+        }
+        System.out.println(answer);
+        
+		
+		
+	
+		}
 }

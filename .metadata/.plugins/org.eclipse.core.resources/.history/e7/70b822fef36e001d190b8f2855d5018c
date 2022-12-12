@@ -1,7 +1,0 @@
-package quiz.test;
-
-public abstract class Quiz07 {
-
-	abstract void sound();
-
-}

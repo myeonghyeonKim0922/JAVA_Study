@@ -1,9 +1,0 @@
-package test.ch11.reflection;
-
-public class ReflectionEx {
-
-	public static void main(String[] args) {
-
-	}
-
-}

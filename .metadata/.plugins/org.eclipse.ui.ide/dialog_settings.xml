@@ -7,6 +7,9 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\project\JAVA\studentproject"/>
+			<item value="D:\project\JAVA\studentinfo"/>
+			<item value="D:\project\StudentInfo"/>
 			<item value="D:\project\JAVA\student"/>
 			<item value="D:\project\JAVA\test"/>
 			<item value="D:\project\JAVA\test04"/>

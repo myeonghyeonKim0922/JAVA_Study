@@ -9,10 +9,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h4>구구단 출력하기</h4>
 <% 
+gugudan.setN1(5);
 int[] temp = gugudan.process();
-for(int num : temp){
-	out.print(num);
+for(int i=0; i<temp.length; i++){
+	out.print("<br/>"+"5 * "+i+"= "+temp[i]);
 }
 %>
 </body>

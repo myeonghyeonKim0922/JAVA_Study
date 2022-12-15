@@ -8,8 +8,8 @@
 </head>
 <body>
 	<h4>구구단 출력하기</h4>
-	<jsp:include page="useBean.jsp">
-	<jsp:param value="5" name="n1"/>
+	<jsp:include page="include_data.jsp">
+	<jsp:param value="5" name="data"/>
 	</jsp:include>
 </body>
 </html>

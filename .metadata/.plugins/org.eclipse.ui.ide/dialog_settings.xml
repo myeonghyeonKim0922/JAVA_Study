@@ -7,13 +7,15 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="D:\project\jsp\jwbook"/>
+			<item value="D:\project\JAVA\test"/>
+			<item value="D:\project\JAVA\programmers"/>
+			<item value="D:\project\JAVA\first_project"/>
 			<item value="D:\project\JAVA"/>
+			<item value="D:\project\jsp\jwbook"/>
 			<item value="D:\project\JAVA\studentproject"/>
 			<item value="D:\project\JAVA\studentinfo"/>
 			<item value="D:\project\StudentInfo"/>
 			<item value="D:\project\JAVA\student"/>
-			<item value="D:\project\JAVA\test"/>
 			<item value="D:\project\JAVA\test04"/>
 			<item value="D:\project\thisisjava"/>
 		</list>
@@ -30,5 +32,11 @@
 	<section name="ResourceNavigator">
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1667881672364"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

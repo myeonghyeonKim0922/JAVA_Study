@@ -12,12 +12,12 @@ public void setN1(int n1) {
 }
 	
 public int[] process() {
-	int[] temp = new int[9];
-	for(int i = 1; i<=9; i++){
-		for(int j=0; j<=8; j++) {
+	int[] temp = new int[10];
+	for(int i = 1 ,j = 0; i<=9; i++){
+		j++;
 			temp[j] = n1 * i;
 		}
-	}
 	return temp;
+	}
 }
-}
+

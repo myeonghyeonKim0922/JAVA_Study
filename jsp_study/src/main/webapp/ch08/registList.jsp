@@ -26,6 +26,6 @@
 		</c:forEach>
 		
 	</table>
-	<a href="/jsp_study/src/main/webapp/ch08/registgrade">등급확인</a>
+	<a href="/jsp_study/rcontrol?action=grade">등급확인</a>
 </body>
 </html>

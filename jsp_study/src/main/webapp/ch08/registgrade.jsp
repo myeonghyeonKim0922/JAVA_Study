@@ -23,18 +23,10 @@
 			<td>${i.count}</td>
 			<td><a href="/jsp_study/rcontrol?action=info&id=${r.id}">${r.name}</a></td>
 			<td>${r.phone}</td>
-			<td>${r.grade}<%if(r.grade == "silver"){ 
-			out.print("(일반)");
-			}else if(r.grade == "gold"){ 
-				out.print("(중간)");
-			}else{
-				out.print("(최상)");
-			}
-			%></td>
+			<td>${r.grade}</td>
 		</tr>
 		</c:forEach>
 		
 	</table>
-	<a href="/jsp_study/src/main/webapp/ch08/registgrade">등급확인</a>
 </body>
 </html>

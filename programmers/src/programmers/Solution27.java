@@ -1,6 +1,6 @@
 package programmers;
 
-public class Q5 {
+public class Solution27 {
 	class Solution {
 	    public int solution(int price) {
 	        int answer = 0;

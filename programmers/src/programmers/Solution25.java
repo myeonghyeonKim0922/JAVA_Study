@@ -1,6 +1,6 @@
 package programmers;
 
-public class Q1 {
+public class Solution25 {
 	class Solution {
 	    public int[] solution(int n) {
 	        int[] answer;
@@ -21,5 +21,4 @@ public class Q1 {
 	        return answer;
 	    }
 	}
-	
 }

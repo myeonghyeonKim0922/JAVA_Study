@@ -1,7 +1,7 @@
 package programmers;
-import java.util.*;
 
-public class Q2 {
+import java.util.*;
+public class Solution22 {
 
 	class Solution {
 		    public int[] solution(int[] numbers, int num1, int num2) {
@@ -10,5 +10,4 @@ public class Q2 {
 		        return answer;
 		    }
 		}
-
 }

@@ -35,13 +35,29 @@ public class StudentController extends HttpServlet {
 		String action = request.getParameter("action"); //insert
 		String view = "";
 		
+		if(action == null) {
+			//리퀘스트를 또 한다.
+			getServletContext().getRequestDispatcher("/studentControl?action=list")
+			.forward(request, response);
+		} else {
+			switch(action) {
+			case "list": view = list(request,response); break;
+			case "insert": view = insert(request,response); break;
+			}
+			//getServletContext(): ServletContext를 얻어옴
+			//getRequestDispatcher(이동할 페이지): 이동할 페이지의 경로 지정
+			//forward: 페이지를 이동시킨다. 내부에서 이동이 되므로 주소값은 그대로
+			getServletContext().getRequestDispatcher("/ch09/"+view)
+			.forward(request, response);
+		}
 		view = insert(request,response); //request,response객체를 매개변수로 넘겨준다.
+	}
+	
+	public String list(HttpServletRequest request, HttpServletResponse response)   {
+		//request.setAttribute("키",객체)
+		request.setAttribute("students",dao.getAll()); //request, response 하는 과정에서 해당 데이터를 얻어올수 있게 한다.
 		
-		//getServletContext(): ServletContext를 얻어옴
-		//getRequestDispatcher(이동할 페이지): 이동할 페이지의 경로 지정
-		//forward: 페이지를 이동시킨다. 내부에서 이동이 되므로 주소값은 그대로
-		getServletContext().getRequestDispatcher("/ch09/"+view)
-		.forward(request, response);
+    	return "studentinfo.jsp";		
 	}
 	
 	//request 데이터 받아옴 -> DAO에 있는 insert 실행(DB에 insert가 됨) -> 페이지명 리턴
